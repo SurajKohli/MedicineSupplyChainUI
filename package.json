@@ -1,0 +1,33 @@
+{
+  "name": "MedicineSupplyUI",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "postinstall": "react-native-port-patcher --new-port 8086",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "axios": "^0.18.0",
+    "base-64": "^0.1.0",
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "react-native-asyncstorage": "^1.0.0",
+    "react-native-camera": "^1.3.0",
+    "react-native-port-patcher": "^1.0.3",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-qrcode-scanner": "^1.1.0",
+    "react-navigation": "^2.16.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.5",
+    "react-test-renderer": "16.5.0",
+    "reactotron-react-native": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
